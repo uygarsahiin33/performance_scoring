@@ -1,14 +1,14 @@
 # Performance Scoring System – Summary
 This project introduces a statistical performance scoring model for evaluating store and employee performance using dynamic and distribution-aware techniques.
 
-Key Steps:
-## 1. Distribution Detection: Each of the 5 performance metrics is tested via Chi-Square to classify as Beta or Normal.
+### Key Steps:
+**1. Distribution Detection:** Each of the 5 performance metrics is tested via Chi-Square to classify as Beta or Normal.
 
-## 2. Scoring Logic:
+**2. Scoring Logic:**
 - Beta metrics → scored via CDF percentiles.
 - Normal metrics → scored via z-scores.
 
-## 3. Weighted Aggregation: Scores are combined using business-priority weights, aligned with expert rankings.
+**3. Weighted Aggregation:** Scores are combined using business-priority weights, aligned with expert rankings.
 
 The model ensures objective, scalable, and insightful performance evaluation tailored to business needs.
 
